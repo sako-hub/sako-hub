@@ -1,0 +1,26 @@
+MESAJ="DAÖ u s e r BOT Avtomatik Deploy Qurulumuna Xoş Geldiniz"
+MESAJ+="\nTelegram: @DAOUSERBOT"
+pkg update -y
+clear
+echo -e $MESAJ
+echo "Python yüklenir"
+pkg install python -y
+clear
+echo -e $MESAJ
+echo "Git yüklenir"
+pkg install git -y
+clear
+echo -e $MESAJ
+echo "TeleThon yüklenir"
+pip install telethon
+echo "Repo klonlanır..."
+git clone DAÖ o w n e r 
+clear
+echo -e $MESAJ
+cd Qurulum
+clear
+echo "Kitabxana yüklenir"
+echo -e $MESAJ
+pip install wheel
+pip install -r requirements.txt
+python -m dao_installer
